@@ -537,7 +537,7 @@ button {
 }
 
 .phone-number {
-  margin-left: 54px;
+  margin-left: 150px;
 }
 .contac_detel ul li {
   padding-bottom: 25px;
@@ -552,6 +552,7 @@ button {
 
 .contac_detel ul li a {
   color: #e70139;
+  font-size: 30px;
 }
 
 .contac_detel ul li a:hover {
