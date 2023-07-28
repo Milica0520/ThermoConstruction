@@ -253,6 +253,7 @@ button {
   float: right;
   padding: 0px;
   padding-top: 3px !important;
+  margin-top: 12px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -511,7 +512,7 @@ button {
   color: #b3b3b3;
   font-size: 80px;
   line-height: 90px;
-  padding-bottom: 0;
+  padding-bottom: 16px;
   font-weight: bold;
 }
 
@@ -535,10 +536,21 @@ button {
 .contac_detel ul li img {
   margin-right: 60px;
 }
-
-.phone-number {
-  margin-left: 150px;
+.social_icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
+.social_box {
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 23px;
+}
+
+/* .phone-number {
+  margin-left: 150px;
+} */
 .contac_detel ul li {
   padding-bottom: 25px;
   font-size: 45px;
@@ -552,7 +564,7 @@ button {
 
 .contac_detel ul li a {
   color: #e70139;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .contac_detel ul li a:hover {
