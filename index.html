@@ -9,7 +9,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
     <link rel="icon" href="images/myimages/favicon.png" type="image/jpg" />
-    <title>ThermoCo</title>
+    <title>IdustrieHausSer</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -33,6 +33,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen"
     />
+    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
@@ -41,22 +42,43 @@
   <!-- body -->
   <body class="main-layout">
     <!-- loader  -->
-    <div class="loader_bg">
+    <!-- <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
+    </div> -->
     <!-- end loader -->
     <!-- header -->
     <header>
       <!-- header inner -->
-      <div class="header">
+      <div class="header" id="navbar">
+        
         <div class="container-fluid">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="social_box">
+                <div class="center-links">
+                <a href="#">
+                  <img
+                    class="social_icon"
+                    src="images/myimages/facebook.png"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    class="social_icon"
+                    src="images/myimages/instagram.png"
+                  />
+                </a>
+            
+              </div>
+            </div>
+            </div>
           <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
                     <a href="index.html"
-                      ><img src="images/myimages/LogoMakr-85VPvf.png" alt="#"
+                      ><img src="images/myimages/LogoMakr-0NLiAk.png" alt="#"
                     /></a>
                   </div>
                 </div>
@@ -78,16 +100,16 @@
                 <div class="collapse navbar-collapse" id="navbarsExample04">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#services">About Us</a>
+                      <a class="nav-link" href="#services">Über uns</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#work"> Our Work</a>
+                      <a class="nav-link" href="#work">Unsere arbeit</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#solutions">Solutions</a>
+                      <a class="nav-link" href="#solutions">Lösungen</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contactUs">Contact Us</a>
+                      <a class="nav-link" href="#contactUs">Kontakt</a>
                     </li>
                   </ul>
                 </div>
@@ -106,9 +128,10 @@
           <div class="col-md-7">
             <div class="text-bg">
               <div class="padding_lert">
-                <!-- <i><img src="images/btn.png" alt="#" /></i> -->
-                <h1>A Great Thermo and Construction Solutions <br /></h1>
-                <!-- <a href="Javascript:void(0)">Read More</a> -->
+                <h1>
+                  Ihre Lösung für Wärmedämmung und Bauarbeiten<br /><img
+                  src="images/myimages/4-icons-white.png"
+                </h1>
               </div>
             </div>
           </div>
@@ -116,7 +139,7 @@
             <div class="bann_img">
               <figure>
                 <img
-                  src="images/myimages/Acoustic_Lagging_Banner_Image_waifu2x_photo_noise2_scale.png"
+                  src="images/myimages/20161123_101134 (1).jpg"
                   alt="#"
                 />
               </figure>
@@ -142,7 +165,7 @@
           </div>
           <div class="col-md-7">
             <div class="titlepage">
-              <h2>About Our Company</h2>
+              <h2>Über unsere Firma</h2>
               <span
                 >Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's
@@ -163,21 +186,16 @@
         <div class="row d_flex">
           <div class="col-md-7">
             <div class="titlepage">
-              <h2>Solutions for every <br />Specific need</h2>
-              <span
+              <h2>Lösungen für jeden
+                <br />Spezifischer Bedarf </h2>
+              <!-- <span
                 >Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type and scrambled it to make a type
                 specimen book. It has survived not only five</span
-              >
-              <!-- <a class="read_more" href="Javascript:void(0)">Read More</a> -->
+              > -->
             </div>
-          </div>
-          <div class="col-md-5">
-            <!-- <div class="solutions_img">
-              <figure><img src="images/solusan.png" alt="#" /></figure>
-            </div> -->
           </div>
         </div>
       </div>
@@ -189,7 +207,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="titlepage">
-              <h2>See More Our Work</h2>
+              <h2>Sehen Sie mehr über unsere Arbeit</h2>
               <span
                 >It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -204,21 +222,21 @@
           <div class="col-md-6">
             <div class="our_work">
               <figure>
-                <img src="images/myimages/work-pipes.jpg" alt="#" />
+                <img src="images/myimages/20170307_142408 (1) (2).jpg" alt="#" />
               </figure>
             </div>
           </div>
           <div class="col-md-6">
             <div class="our_work">
               <figure>
-                <img src="images/myimages/work-plasterboard.jpg" alt="#" />
+                <img src="images/myimages/IMG-20170111-WA0002 (1) (1).jpg" alt="#" />
               </figure>
             </div>
           </div>
           <div class="col-md-6">
             <div class="our_work">
               <figure>
-                <img src="images/myimages/work-man.jpg" alt="#" />
+                <img src="images/myimages/20170323_154442.jpg" alt="#" />
               </figure>
             </div>
           </div>
@@ -230,6 +248,7 @@
             </div>
           </div>
         </div>
+        
       </div>
     </div>
     <!-- end work -->
@@ -244,26 +263,7 @@
                   Let’s <br />Talk <br />
                   Business
                 </h3>
-                <div class="social_box">
-                  <a href="">
-                    <img
-                      class="social_icon"
-                      src="images/myimages/facebook.png"
-                    />
-                  </a>
-                  <a href="">
-                    <img
-                      class="social_icon"
-                      src="images/myimages/instagram.png"
-                    />
-                  </a>
-                  <a href="">
-                    <img
-                      class="social_icon"
-                      src="images/myimages/twitter.png"
-                    />
-                  </a>
-                </div>
+               
               </div>
             </div>
             <div class="col-md-7 sm_none">
@@ -313,7 +313,9 @@
                   </li>
                 </ul>
               </div>
+             
             </div>
+         
           </div>
         </div>
         <div class="copyright">
@@ -332,6 +334,7 @@
           </div>
         </div>
       </div>
+     
     </footer>
     <!-- end footer -->
     <!-- Javascript files-->
@@ -340,5 +343,7 @@
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=ttu&callback=initMap" async defer></script>
+  
   </body>
 </html>
