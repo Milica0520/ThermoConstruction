@@ -316,6 +316,7 @@ button {
   padding-bottom: 59px;
   font-weight: 800;
   padding-top: 40px;
+  margin-top: 59px;
 }
 
 .text-bg i img {
@@ -617,4 +618,8 @@ button {
 }
 #myBtn:hover {
   background-color: #555;
+}
+#map {
+  height: 400px;
+  width: 100%;
 }

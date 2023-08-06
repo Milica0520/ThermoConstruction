@@ -212,4 +212,9 @@
     background: url(../images/menu_icon.png);
     background-repeat: no-repeat;
   }
+  #map {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+  }
 }
